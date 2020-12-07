@@ -1,0 +1,68 @@
+/*header */
+.header{
+	text-align: center;
+	height: 600px;
+}
+.judul{
+	margin-top: 175px;
+	font-family: 'Cinzel', serif;
+	font-size: 27px;
+}
+.sapa{
+	margin-top: -25px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.keterangan{
+	margin-top: 20px;
+}
+.header button, .tombol{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-color: black;
+	border-width: 0.5px;
+	padding: 10px;
+}
+.header button:hover, .tombol:hover{
+	background-color: black;
+	color: white;
+}
+.header button:visited, .header button:active{
+	border-width: 0.5px;
+}
+.dekorasi img{
+	width: 45%;
+}
+
+
+/*scroll*/
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+/*formulir*/
+
+.formContainer{
+	height: 600px;
+}
+form{
+	padding-top: 210px;
+}
+.formContainer table{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.formContainer input{
+	font-family: 'Quicksand', sans-serif;
+	padding: 5px;
+}
+.tombol{
+	margin-top: 20px;
+	width: 100%;
+}
