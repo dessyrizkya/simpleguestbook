@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guest Book</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="judul">
+			<h1>GUEST BOOK</h1>
+		</div>
+		<div class="sapa">Hi, There! Welcome to Our Event.</div>
+		<div class="keterangan">
+			<button onclick="scrollFormulir()">Please write your name</button>
+		</div>
+		
+		<div class="dekorasi">
+			<img src="leaf.png">
+		</div>
+	</div>
+	<center>
+	<div class="formContainer">
+		<form method="post" action="guestbookAction.jsp" id="formulir">
+			<table>
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><input type="text" name="name" required></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td>:</td>
+					<td><input type="text" name="address"></td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="submit" name="submit" value="Submit" class="tombol" required></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	</center>
+
+
+<script>
+function scrollFormulir() {
+	var konten = document.getElementById("formulir");
+	konten.scrollIntoView();
+}
+</script>
+
+
+</body>
+</html>
